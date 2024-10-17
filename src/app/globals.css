@@ -2,27 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global Styles */
+
 body {
-    background-color: #0E0E0E; /* Dark background */
-    color: #ffffff;            /* Light text color */
-    font-family: var(--font-geist-sans), sans-serif; /* Default font */
+    background-color: #0E0E0E;
+    color: #ffffff;           
+    font-family: var(--font-geist-sans), sans-serif; 
 }
 
-/* Font Classes */
+
 
 .font-bebas-neue {
     font-family: var(--font-bebas-neue), sans-serif;
 }
 .font-inter {
-    font-family: var(--font-inter), sans-serif; /* Correct font usage */
+    font-family: var(--font-inter), sans-serif; 
 }
 .font-manrope {
-    font-family: var(--font-manrope), sans-serif; /* Correct font usage */
+    font-family: var(--font-manrope), sans-serif; 
 }
-/* Add more font classes as needed */
 
-/* Custom Properties for Theming */
 @layer base {
   :root {
         --background: 0 0% 100%;
@@ -80,13 +78,13 @@ body {
     }
 }
 
-/* Global Styles with Tailwind Utilities */
+
 @layer base {
   * {
-    @apply border-border; /* Apply border color */
+    @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground; /* Use custom properties */
+    @apply bg-background text-foreground;
   }
 }
